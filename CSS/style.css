@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 body, html{
+  margin: -0.5% 0%;
   height: 100%;
+  position: relative;
 }
 
 header{
   height: 20%;
   width: 100%;
+  overflow: hidden;
   background: rgba(157, 34, 53, 255);
   background-size: cover;
   background-position: center;
@@ -31,5 +34,48 @@ header h2{
 
 header h3{
   text-align: right;
-  transform: translate(-5%, -500%);
+  transform: translate(-5%, -550%);
+}
+
+header table{
+  text-align: center;
+  transform: translate(0%, -550%);
+}
+
+header table tr td{
+  float: left;
+  padding: 1px 5%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header table tr td a{
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 255);
+}
+
+header table tr td:hover{
+  background-color:#b78e6c;
+}
+
+header table tr td:active{
+  color: black;
+  background-color:#b78e6c;
+}
+
+footer{
+  height: 20%;
+  width: 100%;
+  overflow: hidden;
+  display: inline-flex;
+  background: rgba(157, 34, 53, 255);
+  background-size: cover;
+  background-position: center;
+  font-family: Montserrat,cursive;
+  color: rgba(255, 255, 255, 255);
+  /* Incase of textshadow */
+  text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
+  letter-spacing: 3px;
 }
