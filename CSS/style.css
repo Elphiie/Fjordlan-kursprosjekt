@@ -79,3 +79,18 @@ footer{
   text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
   letter-spacing: 3px;
 }
+
+.innhold{
+  height: auto;
+  background-color: rgba(183, 142, 108, 255);
+}
+
+.products{
+  height: auto;
+  justify-content: center;
+  display: grid;
+  font-family: Montserrat, cursive;
+}
+
+.products table tr td{
+}
