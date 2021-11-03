@@ -3,11 +3,11 @@
 body, html{
   margin: -0.5% 0%;
   height: 100%;
-  position: relative;
+  position:relative;
 }
 
 header{
-  height: 20%;
+  height: 9rem;
   width: 100%;
   overflow: hidden;
   background: rgba(157, 34, 53, 255);
@@ -16,7 +16,6 @@ header{
   display: inline-grid;
   font-family: Montserrat,cursive;
   color: rgba(255, 255, 255, 255);
-  /* Incase of textshadow */
   text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
   letter-spacing: 3px;
 }
@@ -66,7 +65,7 @@ header table tr td:active{
 }
 
 footer{
-  height: 20%;
+  height: 9rem;
   width: 100%;
   overflow: hidden;
   display: inline-flex;
@@ -81,16 +80,16 @@ footer{
 }
 
 .innhold{
-  height: auto;
   background-color: rgba(183, 142, 108, 255);
 }
 
 .products{
-  height: auto;
   justify-content: center;
   display: grid;
   font-family: Montserrat, cursive;
+  text-align: center;
 }
 
-.products table tr td{
+.products table tr td img{
+  width: 20%;
 }
