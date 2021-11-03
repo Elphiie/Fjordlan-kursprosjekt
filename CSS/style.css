@@ -78,22 +78,37 @@ footer{
   letter-spacing: 3px;
 }
 
+footer a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 255);
+  font-family: Montserrat, cursive;
+}
+
+.logo{
+  width: 10%;
+}
+
 .info{
   padding: 0% 1%;
   float: right;
 }
 
 .innhold{
+  font-family: Montserrat, cursive;
   background-color: rgba(183, 142, 108, 255);
 }
 
-.products{
-  justify-content: center;
+.butikk{
   display: grid;
-  font-family: Montserrat, cursive;
-  text-align: center;
+  grid-template-columns: auto auto auto;
 }
 
-.products table tr td img{
+.produkt{
+  justify-content: center;
+  text-align: center;
+  border: 10px;
+}
+
+.produkt img{
   width: 20%;
 }
