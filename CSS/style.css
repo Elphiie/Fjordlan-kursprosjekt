@@ -68,7 +68,6 @@ footer{
   height: 9rem;
   width: 100%;
   overflow: hidden;
-  display: inline-flex;
   background: rgba(157, 34, 53, 255);
   background-size: cover;
   background-position: center;
@@ -77,6 +76,11 @@ footer{
   /* Incase of textshadow */
   text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
   letter-spacing: 3px;
+}
+
+.info{
+  padding: 0% 1%;
+  float: right;
 }
 
 .innhold{
