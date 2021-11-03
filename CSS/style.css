@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap');
 
 body, html{
   margin: -0.5% 0%;
@@ -14,7 +14,8 @@ header{
   background-size: cover;
   background-position: center;
   display: inline-grid;
-  font-family: Montserrat,cursive;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
   color: rgba(255, 255, 255, 255);
   text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
   letter-spacing: 3px;
@@ -22,16 +23,19 @@ header{
 
 header h1{
   font-size: 300%;
+  font-weight: 900;
   text-align: left;
   transform: translate(5%, 15%);
 }
 
 header h2{
   text-align: right;
+  font-weight: 900;
   transform: translate(-15%, -390%);
 }
 
 header h3{
+  font-weight: 900;
   text-align: right;
   transform: translate(-5%, -550%);
 }
@@ -71,7 +75,8 @@ footer{
   background: rgba(157, 34, 53, 255);
   background-size: cover;
   background-position: center;
-  font-family: Montserrat,cursive;
+  font-family: Montserrat,sans-serif;
+  font-weight: 300;
   color: rgba(255, 255, 255, 255);
   /* Incase of textshadow */
   text-shadow: -1px 0 gray, 0 -1px gray, 1px 0 gray, 0 0px gray;
@@ -82,6 +87,7 @@ footer a{
   text-decoration: none;
   color: rgba(255, 255, 255, 255);
   font-family: Montserrat, cursive;
+  font-weight: 300;
 }
 
 .logo{
@@ -94,11 +100,12 @@ footer a{
 }
 
 .innhold{
-  font-family: Montserrat, cursive;
-  background-color: rgba(183, 142, 108, 255);
+  font-family: Montserrat, sans-serif;
 }
 
 .butikk{
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: grid;
   grid-template-columns: auto auto auto;
 }
@@ -106,7 +113,12 @@ footer a{
 .produkt{
   justify-content: center;
   text-align: center;
-  border: 10px;
+}
+
+.produkt p{
+  font-family: Montserrat, cursive;
+  font-weight: 600;
+  transform: translate(0, -20px);
 }
 
 .produkt img{
