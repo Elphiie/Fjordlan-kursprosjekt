@@ -7,11 +7,11 @@ body, html{
 }
 
 header{
-  height: 9rem;
+  height: 10rem;
   width: 100%;
   overflow: hidden;
   background: rgba(157, 34, 53, 255);
-  background-size: cover;
+  overflow: hidden;
   background-position: center;
   display: inline-grid;
   font-family: Montserrat, sans-serif;
@@ -21,28 +21,27 @@ header{
   letter-spacing: 3px;
 }
 
-header h1{
-  font-size: 300%;
-  font-weight: 900;
+header img{
   text-align: left;
-  transform: translate(5%, 15%);
+  width: 20%;
+  transform: translate(0, 2%);
 }
 
 header h2{
   text-align: right;
   font-weight: 900;
-  transform: translate(-15%, -390%);
+  transform: translate(-15%, -480%);
 }
 
 header h3{
   font-weight: 900;
   text-align: right;
-  transform: translate(-5%, -550%);
+  transform: translate(-5%, -600%);
 }
 
 header table{
   text-align: center;
-  transform: translate(0%, -550%);
+  transform: translate(15%, -582%);
 }
 
 header table tr td{
@@ -83,6 +82,8 @@ footer{
   letter-spacing: 3px;
 }
 
+
+
 footer a{
   text-decoration: none;
   color: rgba(255, 255, 255, 255);
@@ -91,7 +92,8 @@ footer a{
 }
 
 .logo{
-  width: 10%;
+  width: 15%;
+  transform: translate(0%, 13%);
 }
 
 .info{
