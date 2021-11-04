@@ -24,7 +24,7 @@ header{
 header img{
   text-align: left;
   width: 20%;
-  transform: translate(0, 2%);
+  transform: translate(0, 10%);
 }
 
 header h2{
@@ -41,7 +41,7 @@ header h3{
 
 header table{
   text-align: center;
-  transform: translate(15%, -582%);
+  transform: translate(20%, -582%);
 }
 
 header table tr td{
@@ -102,7 +102,23 @@ footer a{
 }
 
 .innhold{
+  height: 100%;
   font-family: Montserrat, sans-serif;
+  margin-top: -1.03%;
+  margin-bottom: -0.2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Bilder/lan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.innhold img{
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(17%, 20%);
+  opacity: 95%;
 }
 
 .butikk{
@@ -110,6 +126,11 @@ footer a{
   padding-bottom: 5%;
   display: grid;
   grid-template-columns: auto auto auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Bilder/lan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .produkt{
