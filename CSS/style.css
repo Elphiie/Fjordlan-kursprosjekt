@@ -24,24 +24,24 @@ header{
 header img{
   text-align: left;
   width: 20%;
-  transform: translate(0, 10%);
+  transform: translate(0, 19%);
 }
 
 header h2{
   text-align: right;
   font-weight: 900;
-  transform: translate(-15%, -480%);
+  transform: translate(-10%, -400%);
 }
 
 header h3{
   font-weight: 900;
   text-align: right;
-  transform: translate(-5%, -600%);
+  transform: translate(-3%, -500%);
 }
 
 header table{
   text-align: center;
-  transform: translate(20%, -582%);
+  transform: translate(20%, -500%);
 }
 
 header table tr td{
@@ -93,7 +93,7 @@ footer a{
 
 .logo{
   width: 15%;
-  transform: translate(0%, 13%);
+  transform: translate(0%, 28%);
 }
 
 .info{
@@ -104,13 +104,15 @@ footer a{
 .innhold{
   height: 100%;
   font-family: Montserrat, sans-serif;
-  margin-top: -1.03%;
+  text-shadow: -1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
+  margin-top: -1.287%;
   margin-bottom: -0.2%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Bilder/lan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  align-content: center;
 }
 
 .innhold img{
@@ -134,23 +136,28 @@ footer a{
 }
 
 .produkt{
-  justify-content: center;
-  text-align: left;
-  transform: translate(25%,0%);
+  text-align: center;
+  text-shadow: -1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
 }
 
 .produkt p{
   font-family: Montserrat, cursive;
   font-weight: 600;
   transform: translate(0, -20px);
-  object-fit: cover;
   color: white;
 }
 
 .produkt img{
-  width: 40%;
+  width: 200px;
+  height: 250px;
+  object-fit: scale-down;
 }
 
 .om {
+  margin-top: -1.5494%;
   color: white;
+  font-size: 120%;
+  justify-content: center;
+  align-content: center;
+  transform: translate(0, 50%);
 }
