@@ -135,7 +135,8 @@ footer a{
 
 .produkt{
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  transform: translate(25%,0%);
 }
 
 .produkt p{
@@ -143,8 +144,13 @@ footer a{
   font-weight: 600;
   transform: translate(0, -20px);
   object-fit: cover;
+  color: white;
 }
 
 .produkt img{
   width: 40%;
+}
+
+.om {
+  color: white;
 }
