@@ -41,7 +41,7 @@ header h3{
 
 header table{
   text-align: center;
-  transform: translate(20%, -500%);
+  transform: translate(20%, -470%);
 }
 
 header table tr td{
@@ -107,7 +107,7 @@ footer a{
   text-shadow: -1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
   margin-top: -1.287%;
   margin-bottom: -0.2%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Bilder/lan.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("../Bilder/lan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,11 +153,20 @@ footer a{
   object-fit: scale-down;
 }
 
+.produkt img:hover{
+  width: 280px;
+  height: 350px;
+}
+
 .om {
   margin-top: -1.5494%;
   color: white;
   font-size: 120%;
   justify-content: center;
   align-content: center;
-  transform: translate(0, 50%);
+  transform: translate(0, 15%);
+}
+
+.om p{
+  font-size: 150%;
 }
