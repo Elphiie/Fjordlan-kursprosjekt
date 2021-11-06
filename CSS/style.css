@@ -152,17 +152,23 @@ footer a{
 .produkt img{
   width: 280px;
   height: 350px;
-  object-fit: scale-down;
+  object-fit: cover;
 }
 
 
 .om {
-  margin-top: -1.5494%;
+  padding-top: 1%;
   color: white;
   font-size: 120%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   justify-content: center;
   align-content: center;
   transform: translate(0, 15%);
+}
+
+.om h1{
+  font-size: 225%;
 }
 
 .om p{
