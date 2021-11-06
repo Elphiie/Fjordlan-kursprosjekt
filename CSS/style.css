@@ -7,7 +7,8 @@ body, html{
 }
 
 header{
-  height: 10rem;
+  height: 19%;
+  min-height: 162px;
   width: 100%;
   overflow: hidden;
   background: rgba(157, 34, 53, 255);
@@ -24,7 +25,7 @@ header{
 header img{
   text-align: left;
   width: 20%;
-  transform: translate(0, 19%);
+  transform: translate(0, 20px);
 }
 
 header h2{
@@ -41,7 +42,7 @@ header h3{
 
 header table{
   text-align: center;
-  transform: translate(20%, -470%);
+  transform: translate(20%, -127px);
 }
 
 header table tr td{
@@ -124,7 +125,7 @@ footer a{
 }
 
 .butikk{
-  padding-top: 5%;
+  padding-top: 5px;
   padding-bottom: 5%;
   display: grid;
   grid-template-columns: auto auto auto;
