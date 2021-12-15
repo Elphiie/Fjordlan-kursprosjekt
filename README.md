@@ -1,2 +1,2 @@
 # Fjordlan
-Shit skjer yo
+Prosjekt med kurs
